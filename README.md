@@ -19,8 +19,14 @@ git clone YOUR_REPOSITORY_URL
 ### Step 2: Go to the project folder
 
 ```
-cd reactjs
+cd git-submodule
 ```
+And submodule repo by
+
+```
+cd git-submodule/reactjs
+```
+
 
 ### Step 3: Install dependencies
 
