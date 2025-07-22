@@ -1,4 +1,3 @@
-[submodule "reactjs"]
-	path = reactjs
-	url = https://github.com/elestio-examples/reactjs.git
-	branch = master
+[submodule "src/reactjs"]
+	path = src/reactjs
+	url = https://github.com/priyambansal13/reactjs

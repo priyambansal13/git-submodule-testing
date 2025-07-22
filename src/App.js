@@ -1,22 +1,14 @@
-import logo from './logo.svg';
+import { helloWorld } from './reactjs/App.util';
 import './App.css';
 
 function App() {
+  const result = helloWorld()
+  console.info(result); // This will log "Hello World from App.util.js"
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Parent A project
       </header>
     </div>
   );
