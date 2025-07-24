@@ -1,8 +1,8 @@
-import { helloWorld } from './reactjs/App.util';
+import {  helloWorld2 } from './reactjs/App.util';
 import './App.css';
 
 function App() {
-  const result = helloWorld()
+  const result = helloWorld2()
   console.info(result); // This will log "Hello World from App.util.js"
 
   return (
