@@ -1,5 +1,6 @@
-import {  helloWorld2 } from './reactjs/App.util';
+import { helloWorld2 } from './reactjs/App.util';
 import './App.css';
+import Customers from './reactjs/Customers';
 
 function App() {
   const result = helloWorld2()
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         Parent A project
       </header>
+      <Customers />
     </div>
   );
 }
